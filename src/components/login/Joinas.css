@@ -1,0 +1,79 @@
+.sectionfrm {
+    background: linear-gradient(to right, #009292, #1d5872);
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logofrm {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px white;
+}
+
+.logofrm > h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #1d5871;
+}
+
+.iconarea {
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cardd {
+    /* border: 2px solid greenyellow; */
+    background: linear-gradient(to right, #009292, #1d5871);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.cardd:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+.cardd:hover .grpicon {
+    color: white;
+}
+.cardd:hover p {
+    color: white;
+}
+
+.grpicon {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.iconarea a:hover {
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .logofrm > h1 {
+        font-size: 1.3rem;
+    }
+
+    .iconarea {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,124 @@
+.paddingContainer {
+  padding-left: 60px;
+  padding-right: 60px;
+} 
+  .navbar-light {
+    background-color: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+  
+  .outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  
+  .outer .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+  
+  .outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #167bff;
+  }
+  
+  .merchant_width{
+    color: #009292;
+    text-align:center!important;
+    font-size: 40px;
+  }
+  
+  
+  .img_style{
+      height: 87%;
+      margin-left: 50px;
+      margin-top: 57px;
+    }
+  
+  .merchant_top{
+    margin-top: 50px;
+  }
+  
+  .button_color{
+  background-color: #009292!important;
+  width:100%;
+  margin-top: 22px;
+  }
+  .button_color:hover{
+    background-color: #1d5871!important;
+  }
+  
+  .img_style_sathi{
+      margin-left: 74px;
+      height: 80%;
+      margin-top: 39px;
+  }
+  
+  .login_width{
+    width:40%;
+    box-shadow: 0px 0px 4px 1px grey;
+    background-color:white;
+    height: 380px;
+     
+  }
+  .sign_in{
+    color:black!important;
+    text-align:center;
+    padding-top: 32px;
+    font-size: 30px;
+  }
+  .login_bg{
+    height:600px!important;
+     padding-top: 108px;
+      padding-bottom: 68px;
+    height:100%;
+   /* background:url('./images/login_bg.jpeg'); */
+  }
+  
+  .top-margin{
+  margin-top: 25px;
+  }
+  .button_height{
+      margin-top: 45px
+    }
+
+    @media (max-width: 600px) {
+      .img_style{
+        margin-left: 0px;
+      }
+      .login_width{
+        width:85%;
+      }
+    }
+  

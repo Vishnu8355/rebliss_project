@@ -1,0 +1,218 @@
+.footer {
+    background: linear-gradient(200deg ,rgba(0, 0, 0, 0.921), rgba(6, 46, 68, 0.878)), url("./images/typograph.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    /* border: 2px solid purple; */
+}
+
+.footerBottom {
+ text-align: center;
+ border-top: 1px solid #009292;
+ /* border: 2px solid red; */
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 40px;
+
+}
+
+.footerBottom_insideDiv{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* border: 2px solid blue; */
+    width: fit-content;
+    margin: auto;
+}    
+
+.footer__addressBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid green; */
+}
+
+.footerBottom_tcpp {
+    /* border: 2px solid red; */
+    margin:4px;
+    padding-left: 10px;
+    border-left :1px solid #009292;
+}
+
+.whatsapp_widget_wrapper {
+    bottom: 100px!important;
+    /* border: 2px solid red; */
+    width: 50px;
+}
+
+.footer__copyright {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__copyright > p{
+    padding-left: 5px;
+}
+
+.footer_flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_ql {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 25%;
+}
+
+.footer_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+
+.footer_divs > a > span:hover{
+    letter-spacing: 3px;
+}
+
+.footer_divs span {
+    /* border: 2px solid violet; */
+    letter-spacing: 2px;
+}
+
+.footer_ql span {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.footer_benefits {
+    /* border: 2px solid green; */
+    width: 25%;
+    height: 100%;
+}
+
+
+.footer_lastbox {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+}
+
+.footer_lastbox .marg {
+    margin: 10px;
+}
+
+.padd {
+    padding: 10px;
+}
+
+.footer h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #00b6b6;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.footer .top p {
+    color: #00b6b6;  
+    font-weight: 300;    
+} 
+.footer .top span {
+    color: #00b6b6;
+    font-weight: 300;    
+} 
+
+.gridFlexbox:hover {
+    color: #00b6b6;
+}
+
+.footer_follow .MuiSvgIcon-root:hover {
+    color: #00b6b6;
+}
+
+
+
+    @media (max-width: 600px) {
+        .footer{
+            height: 100%;
+        }
+
+        .footer h1 {
+            font-size: 1.3rem;
+        }
+    
+        .top {
+            flex-direction: column;
+        }
+    
+        .top3 {
+            width: 90%;
+        
+        }
+    
+        .footerBottom {
+            width: 100%;
+            font-size: 0.7rem;
+            /* border: 2px solid blue; */
+        }
+    
+        .footer__contactUsBottom {
+            width: 90%;
+        }
+    
+        .footer_ql {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #00b6b6;
+        }
+    
+        .footer_lastbox {
+            width: 100%;
+            /* border: 2px solid red; */
+            align-items:center;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .marg {
+            width: 100%;
+        }
+
+        .footer_benefits{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #00b6b6;
+        }
+
+        .footer_follow .MuiSvgIcon-root {
+            /* border: 2px solid white; */
+            margin: 5px;
+        }
+
+        .footer__copyright {
+            /* border: 2px solid red; */
+            flex-direction: row;
+        }
+    }

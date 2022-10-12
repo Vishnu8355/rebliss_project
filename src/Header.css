@@ -1,0 +1,202 @@
+.getApp {
+    background-color: #1d5871;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 13px;
+    bottom: 50px;
+    width: 42px;
+    height: 42px;
+    z-index: 20;
+  }
+
+  .getApp:hover {
+    background-color: #009292;
+  }
+  .getApp > span{
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.getApp > img {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid  yellow; */
+  padding: 5px;
+  margin-left: 5px;
+}
+
+ .navbar-light {
+   box-shadow: none!important;
+ }
+
+.header__logo {
+    min-width: 100px;
+    max-width: 150px;
+    object-fit: contain;
+    margin-left: 10%;
+}
+
+.header__optionName {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition-duration: 2s;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    color: #1d5871;
+}
+
+.header__optionName > img {
+  width: 100px;
+  /* border: 1px solid red; */
+}
+
+.header__optionName:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #009292;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .header__optionName:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .header__option > a {
+    text-decoration: none;
+  }
+
+  .navdropdown {
+    margin-top:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* border: 2px solid red; */
+    background: linear-gradient(to right,#009292 , #1d5871);
+
+  }
+  .navdropdown > a {
+    color: white!important;
+    font-weight: 700;
+  }
+
+
+  .dropdown-menu {
+    box-shadow: 0 0 10px #00929262;
+  }
+
+  .dropdown-item {
+    color: #1d5871;
+
+  }
+
+  .dropdown-item > a:hover {
+    color: #009292;
+  }
+  
+  .header_empl {
+    background: linear-gradient(to right, #009292, #1d5871);
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 16px;
+  }
+
+  .header_empl:hover {
+    color: white;
+    background: linear-gradient(to right, #1d5871, #009292); 
+  }
+  @media (max-width: 600px){
+    .header{
+      height: 100%;
+      /* border: 1px solid blue; */
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+
+    .header__logo {
+      max-width: 100px;
+      object-fit: contain;
+      margin-left: 0; 
+      padding: 5px;
+  }
+
+    .header__nav{
+      padding-top: 8px;
+      padding-bottom: 10px;
+      /* border: 2px solid red; */
+      width: 100%;
+    }
+    .header__optionName {
+      font-size: 0.7rem;
+      padding: 0;
+      text-align: center;
+    }
+    .getApp{
+      bottom: 150px;
+    }
+
+    .getApp > img {
+      width: 20px;
+      height: 20px;
+    }
+    .navbarToggle {
+      margin-left: 0px;
+      width: 100px;
+      /* border: 2px solid red; */
+    }
+
+    .getAppHeader {
+      /* border: 1px solid red; */
+      width: 95%;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      margin-left: 17px;
+      padding-top: 10px;
+
+    }
+
+  }
+
+  @media only screen and (min-width: 991px) {
+    .dropdown-menu {
+      margin-left: -65px;
+    }
+  }
+
+  .header .navbarToggle {
+    /* border: 2px solid blue; */
+    justify-content: flex-end!important;
+    width: 100%;
+  }
+
+
+  .getAppHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+  }
+  
+  .getAppHeader>span {
+    color: white;
+  }
+
+  .getAppHeader > span >img {
+    width: 140px;
+    padding-right: 5px;
+  }  

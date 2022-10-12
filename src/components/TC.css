@@ -1,0 +1,42 @@
+.tc {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 30px;
+    background:linear-gradient(to right, #009292, #1d5871);
+    color: #fff;
+}
+
+.tc > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+    
+.tc > p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    word-break: normal;
+    word-wrap: break-word;
+}
+
+.tc_bullets {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.tc > h2 {
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.tc > h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

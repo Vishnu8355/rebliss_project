@@ -1,0 +1,33 @@
+
+.blog > h1 {
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+  color: #1d5871;
+}
+
+
+.blog > section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 2px solid red; */
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .blog section {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .blog section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .blog section{
+    grid-template-columns: auto auto auto;
+  }
+}

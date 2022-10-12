@@ -1,0 +1,32 @@
+.aboutus_para {
+    /* background-color: black; */
+    width: 85%;
+    margin: auto;
+    color: #1D5871;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.aboutus_para > h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.aboutus_para > p {
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.aboutus_para > h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    color: #009292;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}

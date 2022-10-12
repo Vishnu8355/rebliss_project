@@ -1,0 +1,231 @@
+.benefits {
+    /* border: 2px solid yellow; */
+    color: #1d5871;
+    padding-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+    /* background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387"); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+    /* background-attachment: fixed; */
+}
+
+.benefits > h1 {
+    font-size: 3rem;
+    text-align: center;
+    /* border: 1px solid yellow; */
+    background:linear-gradient(to right, #009292, #1d5871);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.benefits_points {
+    /* padding-top: 20px; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits_points {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+
+}
+
+.benefitsImg {
+    width: 500px;
+    height: 500px;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.benefitsImg > img {
+    position: absolute;
+    /* border: 2px solid green; */
+}
+
+.last {
+    animation: revolve 40s infinite linear;
+}
+
+.front {
+    animation: revolve2 50s infinite linear;
+}
+
+
+.Girl {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+}
+
+.Mobile {
+    width: 300px;
+    position: absolute;
+    z-index: 10;
+}
+
+.saathiM {
+top: 90px;
+left: 80px;
+width: 350px;
+}
+.saathiG {
+    top: 100px;
+    left: 150px;
+    z-index: 11;
+}
+
+.tsmM{
+    top: 60px;
+    left: 100px;
+}
+
+
+.partnerM {
+    top: 60px;
+    left: 40px;
+    width: 400px;
+}
+.partnerG {
+    top: 100px;
+    left: 50px;
+}
+
+.merchantG {
+    top: 90px;
+    /* width: 300px; */
+    left: 60px;
+    z-index: 11;
+}
+.merchantM {
+    left: 70px;
+    top: 80px;
+    width: 330px;
+}
+@keyframes revolve {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes revolve2 {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.benefits_pointsSection{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.benefits_Info {
+    /* border: 2px solid red; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.benefits_Underline {
+    border-bottom: 3px solid #009292;
+    margin: 20px;
+}
+.benefits_Info>h1 {
+    font-size:1.5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+    word-wrap: break-word;
+}
+
+.benefits_Info > span {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.benefits_Sathi {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.552);
+    
+}
+.benefits_Tsm {
+    background: linear-gradient(to left, rgba(239, 239, 239, 0.633), rgba(255, 255, 255, 0.864));
+}
+.benefits_Tsm > .benefits_Info {
+    padding-left: 20px;
+}
+.benefits_Merchant > .benefits_Info {
+    padding-left: 20px;
+}
+.benefits_Merchant {
+    background: linear-gradient(to left, rgba(239, 239, 239, 0.759), rgba(255, 255, 255, 0.782));
+}
+
+@media (max-width: 600px) {
+    .benefits {
+        margin-top: -70px;
+    }
+    .benefits_pointsSection{
+        flex-direction: column;
+    }
+    .benefits > h1{
+        font-size: 1.5rem;
+        /* border: 1px solid red; */
+        padding-top: 100px;
+    }
+
+    .benefits_Info {
+        justify-content: space-around;
+        /* border: 2px solid red; */
+        height: 100%;
+        width: 90%;
+    }
+    .benefits_Info > h1 {
+        font-size: 1rem;
+    }
+
+    .benefits_Info > span {
+        font-size: 1.3rem;
+        width: 90%;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .benefits_Tsm {
+        flex-direction: column-reverse;
+    }
+    .benefits_Merchant {
+        flex-direction: column-reverse;
+    }
+    .benefits_Tsm > .benefits_Info {
+        padding-left: 0;
+    }
+    .benefits_Merchant > .benefits_Info {
+        padding-left: 0;
+    }
+}
+
+
+.homebody{
+    overflow:hidden;
+}
+
+.benefits_Info > h1 > .MuiSvgIcon-root {
+    margin-right: 10px;
+    animation: revolve2 2s infinite linear;
+}
+

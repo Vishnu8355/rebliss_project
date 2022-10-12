@@ -1,0 +1,11 @@
+#insertinputs {
+    display: none;
+}
+
+#signupBtn {
+    background: linear-gradient(to right, #009292, #1d5871);
+}
+
+#signupBtn:hover {
+    background: linear-gradient(to right, #1d5871, #009292);
+}

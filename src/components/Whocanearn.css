@@ -1,0 +1,58 @@
+.whocanearn >h1 {
+    color: #1d5871;
+    font-size: 3rem;
+    background:linear-gradient(to right, #009292, #1d5871);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    /* border: 2px solid red; */
+}
+.whocanearn_one {
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 200px;
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whocanearn_one > img {
+    /* border: 2px solid blue; */
+    margin: auto;
+}
+
+.whocanearn_options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* border: 2px solid greenyellow; */
+    margin: auto;
+}
+
+.whocanearn_one img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.whocannearn_names {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1d5871;
+}
+
+
+@media (max-width: 480px) {
+    .whocanearn > h1 {
+        font-size: 1.5rem;
+    }
+
+    .whocanearn_options {
+        flex-direction: column;
+    }
+}
